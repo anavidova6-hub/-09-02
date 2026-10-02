@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Сообщения</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <a href="index.html">Вход</a>
+        <a href="messages.html">Сообщения</a>
+        <a href="stats.html">Статистика</a>
+    </nav>
+
+    <div class="container">
+        <!-- Форма отправки -->
+        <div class="card">
+            <h2>Отправить сообщение</h2>
+            <form>
+                <label>Кому</label>
+
+
+<label>Текст сообщения</label>
+            <textarea rows="4" placeholder="Введите ваше сообщение..."></textarea>
+
+            <button type="submit" class="btn-secondary">Отправить</button>
+        </form>
+    </div>
+
+    <!-- Список входящих -->
+    <div class="card">
+        <h2>Входящие сообщения</h2>
+        <div class="message-item">
+            <strong>Администратор:</strong>
+            <p>Ваш аккаунт успешно настроен.</p>
+        </div>
+        <div class="message-item">
+            <strong>Иван Иванов:</strong>
+            <p>Привет! Когда будет готово задание?</p>
+        </div>
+    </div>
+</div>
